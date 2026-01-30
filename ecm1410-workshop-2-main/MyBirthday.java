@@ -1,8 +1,8 @@
 public class MyBirthday {
     public static void main(String[] args){
-        int currentDay = 2; 
-        int currentDate = 7; 
-        int myBirthdayDate = 23;
+        int currentDay = Integer.parseInt(args[0]);
+        int currentDate = Integer.parseInt(args[1]);
+        int myBirthdayDate = Integer.parseInt(args[2]);
 
         // value below is a constant
         final int DAYS_A_WEEK = 7;
